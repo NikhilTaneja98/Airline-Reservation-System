@@ -14,7 +14,7 @@ public class getflights {
 	private String source;
 	private String destination;
 	private String duration;
-        private float price;
+        private double price;
         private String flightnumber;
         private int flightid;
 	
@@ -52,10 +52,10 @@ public class getflights {
 	public void setduration(String duration) {
 		this.duration = duration;
 	}
-	public void setprice(float price) {
+	public void setprice(double price) {
 		this.price = price;
 	}
-	public float getprice() {
+	public double getprice() {
 		return price;
 	}
         public String getflightnumber() {
